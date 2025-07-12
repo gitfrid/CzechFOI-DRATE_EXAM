@@ -15,6 +15,7 @@ and widely used scientific methods such as Cox regression or Kaplan-Meier analys
 Charles Sanders Peirce recognized over a century ago that improper randomization and boundary conditions could distort conclusions
 a warning still relevant in today
 
+[**CzechFOI-DRATE project for mor information**](https://github.com/gitfrid/CzechFOI-DRATE)
 _________________________________________
 
 ### AA) simulate deaths doses.py
