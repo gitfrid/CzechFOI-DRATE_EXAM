@@ -34,3 +34,19 @@ _________________________________________
 | 4     | Simulated&nbsp;&nbsp; | Probabilistic from real curve&nbsp;&nbsp;&nbsp;   | ❌ Not applied                                   | ❌ No Bias      |
 | 5     | Simulated&nbsp;&nbsp;&nbsp;   | Simulate rectangular&nbsp;&nbsp; | ✅ Applied                                       | ✅ Bias Present  |
 | 6     | Simulated&nbsp;&nbsp;&nbsp;   | Simulate rectangular&nbsp;&nbsp; | ❌ Not applied                                   | ❌ No Bias      |
+
+
+
+# Simulation Cases Visualization
+
+Below are the results of the 6 cases, shown as raw (CA-AA) and normalized (ZI-AA) time series side-by-side.
+
+| Case | Raw Time Series (CA-AA) | Normalized Time Series (ZI-AA) |
+|-------|-------------------------|-------------------------------|
+| Case 1 | ![Case 1 Raw](path/to/CA-AA_case1_real_deaths_real_doses.png) | ![Case 1 Normalized](path/to/ZI-AA_case1_real_deaths_real_doses.png) |
+| Case 2 | ![Case 2 Raw](path/to/CA-AA_case2_sim_deaths_real_doses_no_constraint.png) | ![Case 2 Normalized](path/to/ZI-AA_case2_sim_deaths_real_doses_no_constraint.png) |
+| Case 3 | ![Case 3 Raw](path/to/CA-AA_case3_sim_deaths_sim_real_doses_with_constraint.png) | ![Case 3 Normalized](path/to/ZI-AA_case3_sim_deaths_sim_real_doses_with_constraint.png) |
+| Case 4 | ![Case 4 Raw](path/to/CA-AA_case4_sim_deaths_sim_real_doses_no_constraint.png) | ![Case 4 Normalized](path/to/ZI-AA_case4_sim_deaths_sim_real_doses_no_constraint.png) |
+| Case 5 | ![Case 5 Raw](path/to/CA-AA_case5_sim_deaths_sim_flat_random_doses_with_constraint.png) | ![Case 5 Normalized](path/to/ZI-AA_case5_sim_deaths_sim_flat_random_doses_with_constraint.png) |
+| Case 6 | ![Case 6 Raw](path/to/CA-AA_case6_sim_deaths_sim_flat_random_doses_no_constraint.png) | ![Case 6 Normalized](path/to/ZI-AA_case6_sim_deaths_sim_flat_random_doses_no_constraint.png) |
+
