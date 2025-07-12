@@ -27,12 +27,12 @@ _________________________________________
 
 | Case | Deaths       | Doses        | Condition (only assign if alive at dose day)   | Expected Bias   |
 |-------|--------------|--------------|------------------------------------------------|-----------------|
-| 1     | Real&nbsp;&nbsp;&nbsp;   | Real&nbsp;&nbsp;&nbsp;   | Inherent (real doses can only happen if alive)   | ✅ Bias Present  |
-| 2     | Simulated&nbsp;&nbsp;&nbsp;   | Real&nbsp;&nbsp;&nbsp;   | Removed (assign real doses regardless of survival)           | ❌ No Bias      |
+| 1     | Real Data&nbsp;&nbsp;&nbsp;   | Real Data&nbsp;&nbsp;&nbsp;   | Inherent (real doses can only happen if alive)   | ✅ Bias Present  |
+| 2     | Simulated&nbsp;&nbsp;&nbsp;   | Real Data&nbsp;&nbsp;&nbsp;   | Removed (assign real doses regardless of survival)           | ❌ No Bias      |
 | 3     | Simulated&nbsp;&nbsp; | Probabilistic from real curve&nbsp;&nbsp;&nbsp;   | ✅ Applied                                       | ✅ Bias Present  |
 | 4     | Simulated&nbsp;&nbsp; | Probabilistic from real curve&nbsp;&nbsp;&nbsp;   | ❌ Not applied                                   | ❌ No Bias      |
-| 5     | Simulated&nbsp;&nbsp;&nbsp;   | Simulate rectangular&nbsp;&nbsp; | ✅ Applied                                       | ✅ Bias Present  |
-| 6     | Simulated&nbsp;&nbsp;&nbsp;   | Simulate rectangular&nbsp;&nbsp; | ❌ Not applied                                   | ❌ No Bias      |
+| 5     | Simulated&nbsp;&nbsp;&nbsp;   | Simulate rectangular curve&nbsp;&nbsp; | ✅ Applied                                       | ✅ Bias Present  |
+| 6     | Simulated&nbsp;&nbsp;&nbsp;   | Simulate rectangular curve&nbsp;&nbsp; | ❌ Not applied                                   | ❌ No Bias      |
 
 
 
