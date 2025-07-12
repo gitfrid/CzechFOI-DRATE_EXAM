@@ -43,6 +43,8 @@ Below are the results of six differnet cases,
 shown (CA-AA) Kaplan-Meier Survival Curves: Total vs Vaccinated vs Unvaccinated AGE: [70]
 <br>and normalized (ZI-AA) Total vs Vaccinated vs Unvaccinated Deaths, Population, and Doses by Age: [70] side-by-side.
 
+[Download interactive htmls](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/tree/main/Plot%20Results)
+
 | Case&nbsp;&nbsp;&nbsp; | Raw Time Series (CA-AA) | Normalized Time Series (ZI-AA) |
 |-------|-------------------------|-------------------------------|
 | 1&nbsp;&nbsp;&nbsp; | ![Case 1 Raw](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/blob/main/Plot%20Results/CA%29%20KM%20vx%20uvx/CA-AA%29%20case1_real_deaths_real_doses.png) | ![Case 1 Normalized](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/blob/main/Plot%20Results/ZI%29%20vx%20uvx%20norm/ZI-AA%29%20case1_real_deaths_real_doses.png) |
