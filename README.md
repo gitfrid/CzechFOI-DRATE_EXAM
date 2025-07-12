@@ -1,4 +1,4 @@
-# CzechFOI-DRATE_EXAMINATION
+# CzechFOI-DRATE_EXAM
 
 ## Investigation of the Non-Random Boundary Condition Bias
 
@@ -16,6 +16,12 @@ Unlike more widely recognized biases such as:
 
 ...this bias is often **overlooked**, yet it can have a **major impact** on the interpretation of observational data.
 
+_________________________________________
 
+### AA) simulate deaths doses.py
 
+The simulation script shows how the application of "alive at dose time" condition creates a structural bias, even when deaths and doses are assigned completely at random (i.e., no causal effect of the vaccine is assumed or simulated).
 
+<br>Phyton script [AA) simulate deaths doses.py](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/blob/main/Py%20Scripts/AA%29%20simulate%20deaths%20doses.py) 
+
+_________________________________________
