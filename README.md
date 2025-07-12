@@ -8,13 +8,12 @@ This can lead to **illusory differences between groups**, even when **no real ca
 
 Unlike more widely recognized biases such as:
 
-- Immortal time bias
-- Survivorship Bias  
-- Healthy user effect  
-- Selection bias  
-- Treatment delay bias  
+- Immortal time bias, Survivorship Bias, Healthy user effect, Selection bias, Treatment delay bias  
 
 ...this bias is often **overlooked**, yet it can have a **major impact** on the interpretation of observational data.
+
+Only a few scientists seem to be aware of this statistical artefact,
+and widely used methods such as Cox regression or Kaplan-Meier analysis seems not correct for it - which often leads to misleading results.
 
 _________________________________________
 
