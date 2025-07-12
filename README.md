@@ -7,7 +7,7 @@ The **non-random boundary condition bias** arises when a homogeneous group is **
 This lead to **illusory differences between the groups**, even when **no real causal effect** exists.
 
 Unlike more widely recognized biases such as: Immortal time bias, Survivorship Bias, Healthy user effect, Selection bias, Treatment delay bias  
-...this bias is often **overlooked**, yet it can have a **major impact** on the outcomme of observational data.
+...this bias is often **overlooked**, yet it has inevitable a **major impact** on the outcomme of observational data.
 
 Only few scientists seem to be aware of this statistical artefact,
 and widely used scientific methods such as Cox regression or Kaplan-Meier analysis seems not correct for it - which often leads to misleading results.
