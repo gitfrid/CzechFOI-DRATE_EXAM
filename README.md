@@ -55,6 +55,8 @@ shown (CA-AA) Kaplan-Meier Survival Curves: Total vs Vaccinated vs Unvaccinated 
 | 5&nbsp;&nbsp;&nbsp; | ![Case 5 Raw](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/blob/main/Plot%20Results/CA%29%20KM%20vx%20uvx/CA-AA%29%20case5_sim_deaths_sim_flat_random_doses_with_constraint.png) | ![Case 5 Normalized](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/blob/main/Plot%20Results/ZI%29%20vx%20uvx%20norm/ZI-AA%29%20case5_sim_deaths_sim_flat_random_doses_with_constraint.png) |
 | 6&nbsp;&nbsp;&nbsp; | ![Case 6 Raw](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/blob/main/Plot%20Results/CA%29%20KM%20vx%20uvx/CA-AA%29%20case6_sim_deaths_sim_flat_random_doses_no_constraint.png) | ![Case 6 Normalized](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/blob/main/Plot%20Results/ZI%29%20vx%20uvx%20norm/ZI-AA%29%20case6_sim_deaths_sim_flat_random_doses_no_constraint.png) |
 
+<br>Phyton script [CA) KM vx uvx.py](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/blob/main/Py%20Scripts/CA%29%20KM%20vx%20uvx.py) 
+<br>Phyton script [ZI) vx uvx norm.py](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/edit/main/Py%20Scripts/ZI%29%20vx%20uvx%20norm.py) 
 _________________________________________
 ### Software Requirements:
 
