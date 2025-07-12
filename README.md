@@ -1,4 +1,4 @@
-# CzechFOI-DRATE_EXAM
+# CzechFOI-DRATE_EXAMINATION
 
 ## Investigation of the Non-Random Boundary Condition Bias
 
