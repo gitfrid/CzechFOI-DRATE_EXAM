@@ -8,10 +8,14 @@ This can lead to **illusory differences between groups**, even when **no real ca
 
 Unlike more widely recognized biases such as:
 
-- Immortal time bias  
-- Healthy user bias  
+- Immortal time bias
+- Survivorship Bias  
+- Healthy user effect  
 - Selection bias  
 - Treatment delay bias  
 
 ...this bias is often **overlooked**, yet it can have a **major impact** on the interpretation of observational data.
+
+
+
 
