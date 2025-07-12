@@ -25,7 +25,7 @@ The simulation script shows how the application of "alive at dose time" conditio
 
 _________________________________________
 
-| Case | Deaths       | Doses        | Condition (only assign if alive at dose day)   | Expected Bias   |
+| Case | Deaths       | Doses        | ** Condition (only assign if alive at dose day)   | Expected Bias   |
 |-------|--------------|--------------|------------------------------------------------|-----------------|
 | 1     | Real Data&nbsp;&nbsp;&nbsp;   | Real Data&nbsp;&nbsp;&nbsp;   | Inherent applied (real doses can only happen if alive)   | ✅ Bias Present  |
 | 2     | Simulated&nbsp;&nbsp;&nbsp;   | Real Data&nbsp;&nbsp;&nbsp;   | Not applied (assigned real doses regardless if alive)           | ❌ No Bias      |
@@ -34,6 +34,7 @@ _________________________________________
 | 5     | Simulated&nbsp;&nbsp;&nbsp;   | Simulate rectangular curve&nbsp;&nbsp; | ✅ Applied                                       | ✅ Bias Present  |
 | 6     | Simulated&nbsp;&nbsp;&nbsp;   | Simulate rectangular curve&nbsp;&nbsp; | ❌ Not applied                                   | ❌ No Bias      |
 
+****Boundary condition: death day > last dose day**
 
 
 # Simulation Cases Visualization
