@@ -1,0 +1,3 @@
+The Czech Freedom of Information request Vesely_106_202403141131.csv contains about 11 million individual-level records of deaths and vaccination Dates.
+The pyton scripts reads the data from this file.  
+Download: https://github.com/PalackyUniversity/uzis-data-analysis/blob/main/data/Vesely_106_202403141131.tar.xz
