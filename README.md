@@ -39,7 +39,9 @@ _________________________________________
 
 # Simulation Cases Visualization
 
-Below are the results of the 6 cases, shown as raw (CA-AA) and normalized (ZI-AA) time series side-by-side.
+Below are the results of the six cases, 
+shown (CA-AA) Kaplan-Meier Survival Curves: Total vs Vaccinated vs Unvaccinated AGE: [70]
+<br>and normalized (ZI-AA) Total vs Vaccinated vs Unvaccinated Deaths, Population, and Doses by Age: [70] side-by-side.
 
 | Case&nbsp;&nbsp;&nbsp; | Raw Time Series (CA-AA) | Normalized Time Series (ZI-AA) |
 |-------|-------------------------|-------------------------------|
