@@ -29,7 +29,7 @@ _________________________________________
 | Case | Deaths       | Doses        | Condition (only assign if alive at dose day)   | Expected Bias   |
 |-------|--------------|--------------|------------------------------------------------|-----------------|
 | 1     | Real&nbsp;&nbsp;&nbsp;   | Real&nbsp;&nbsp;&nbsp;   | Inherent (real doses can only happen if alive)   | ✅ Bias Present  |
-| 2     | Simulated&nbsp;&nbsp;&nbsp;   | Real&nbsp;&nbsp;&nbsp;   | Removed (assign regardless of survival)           | ❌ No Bias      |
+| 2     | Simulated&nbsp;&nbsp;&nbsp;   | Real&nbsp;&nbsp;&nbsp;   | Removed (assign real doses regardless of survival)           | ❌ No Bias      |
 | 3     | Simulated&nbsp;&nbsp; | Probabilistic from real curve&nbsp;&nbsp;&nbsp;   | ✅ Applied                                       | ✅ Bias Present  |
 | 4     | Simulated&nbsp;&nbsp; | Probabilistic from real curve&nbsp;&nbsp;&nbsp;   | ❌ Not applied                                   | ❌ No Bias      |
 | 5     | Simulated&nbsp;&nbsp;&nbsp;   | Simulate rectangular&nbsp;&nbsp; | ✅ Applied                                       | ✅ Bias Present  |
@@ -41,12 +41,25 @@ _________________________________________
 
 Below are the results of the 6 cases, shown as raw (CA-AA) and normalized (ZI-AA) time series side-by-side.
 
-| Case | Raw Time Series (CA-AA) | Normalized Time Series (ZI-AA) |
+| Case&nbsp;&nbsp;&nbsp; | Raw Time Series (CA-AA) | Normalized Time Series (ZI-AA) |
 |-------|-------------------------|-------------------------------|
-| Case 1 | ![Case 1 Raw](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/blob/main/Plot%20Results/CA%29%20KM%20vx%20uvx/CA-AA%29%20case1_real_deaths_real_doses.png) | ![Case 1 Normalized](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/blob/main/Plot%20Results/ZI%29%20vx%20uvx%20norm/ZI-AA%29%20case1_real_deaths_real_doses.png) |
-| Case 2 | ![Case 2 Raw](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/blob/main/Plot%20Results/CA%29%20KM%20vx%20uvx/CA-AA%29%20case2_sim_deaths_real_doses_no_constraint.png) | ![Case 2 Normalized](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/blob/main/Plot%20Results/ZI%29%20vx%20uvx%20norm/ZI-AA%29%20case2_sim_deaths_real_doses_no_constraint.png) |
-| Case 3 | ![Case 3 Raw](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/blob/main/Plot%20Results/CA%29%20KM%20vx%20uvx/CA-AA%29%20case3_sim_deaths_sim_real_doses_with_constraint.png) | ![Case 3 Normalized](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/blob/main/Plot%20Results/ZI%29%20vx%20uvx%20norm/ZI-AA%29%20case3_sim_deaths_sim_real_doses_with_constraint.png) |
-| Case 4 | ![Case 4 Raw](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/blob/main/Plot%20Results/CA%29%20KM%20vx%20uvx/CA-AA%29%20case4_sim_deaths_sim_real_doses_no_constraint.png) | ![Case 4 Normalized](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/blob/main/Plot%20Results/ZI%29%20vx%20uvx%20norm/ZI-AA%29%20case4_sim_deaths_sim_real_doses_no_constraint.png) |
-| Case 5 | ![Case 5 Raw](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/blob/main/Plot%20Results/CA%29%20KM%20vx%20uvx/CA-AA%29%20case5_sim_deaths_sim_flat_random_doses_with_constraint.png) | ![Case 5 Normalized](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/blob/main/Plot%20Results/ZI%29%20vx%20uvx%20norm/ZI-AA%29%20case5_sim_deaths_sim_flat_random_doses_with_constraint.png) |
-| Case 6 | ![Case 6 Raw](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/blob/main/Plot%20Results/CA%29%20KM%20vx%20uvx/CA-AA%29%20case6_sim_deaths_sim_flat_random_doses_no_constraint.png) | ![Case 6 Normalized](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/blob/main/Plot%20Results/ZI%29%20vx%20uvx%20norm/ZI-AA%29%20case6_sim_deaths_sim_flat_random_doses_no_constraint.png) |
+| 1&nbsp;&nbsp;&nbsp; | ![Case 1 Raw](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/blob/main/Plot%20Results/CA%29%20KM%20vx%20uvx/CA-AA%29%20case1_real_deaths_real_doses.png) | ![Case 1 Normalized](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/blob/main/Plot%20Results/ZI%29%20vx%20uvx%20norm/ZI-AA%29%20case1_real_deaths_real_doses.png) |
+| 2&nbsp;&nbsp;&nbsp; | ![Case 2 Raw](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/blob/main/Plot%20Results/CA%29%20KM%20vx%20uvx/CA-AA%29%20case2_sim_deaths_real_doses_no_constraint.png) | ![Case 2 Normalized](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/blob/main/Plot%20Results/ZI%29%20vx%20uvx%20norm/ZI-AA%29%20case2_sim_deaths_real_doses_no_constraint.png) |
+| 3&nbsp;&nbsp;&nbsp; | ![Case 3 Raw](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/blob/main/Plot%20Results/CA%29%20KM%20vx%20uvx/CA-AA%29%20case3_sim_deaths_sim_real_doses_with_constraint.png) | ![Case 3 Normalized](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/blob/main/Plot%20Results/ZI%29%20vx%20uvx%20norm/ZI-AA%29%20case3_sim_deaths_sim_real_doses_with_constraint.png) |
+| 4&nbsp;&nbsp;&nbsp; | ![Case 4 Raw](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/blob/main/Plot%20Results/CA%29%20KM%20vx%20uvx/CA-AA%29%20case4_sim_deaths_sim_real_doses_no_constraint.png) | ![Case 4 Normalized](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/blob/main/Plot%20Results/ZI%29%20vx%20uvx%20norm/ZI-AA%29%20case4_sim_deaths_sim_real_doses_no_constraint.png) |
+| 5&nbsp;&nbsp;&nbsp; | ![Case 5 Raw](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/blob/main/Plot%20Results/CA%29%20KM%20vx%20uvx/CA-AA%29%20case5_sim_deaths_sim_flat_random_doses_with_constraint.png) | ![Case 5 Normalized](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/blob/main/Plot%20Results/ZI%29%20vx%20uvx%20norm/ZI-AA%29%20case5_sim_deaths_sim_flat_random_doses_with_constraint.png) |
+| 6&nbsp;&nbsp;&nbsp; | ![Case 6 Raw](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/blob/main/Plot%20Results/CA%29%20KM%20vx%20uvx/CA-AA%29%20case6_sim_deaths_sim_flat_random_doses_no_constraint.png) | ![Case 6 Normalized](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/blob/main/Plot%20Results/ZI%29%20vx%20uvx%20norm/ZI-AA%29%20case6_sim_deaths_sim_flat_random_doses_no_constraint.png) |
 
+_________________________________________
+### Software Requirements:
+
+These scripts don't require SQLite queries to aggregate the 11 million individual data rows.
+Instead, the aggregation is handled directly by Python scripts, which can generate aggregated CSV files very quickly.
+For coding questions or help, visit https://chatgpt.com.
+
+- [Python 3.12.5](https://www.python.org/downloads/) to run the scripts.
+- [Visual Studio Code 1.92.2](https://code.visualstudio.com/download) to edit and run scripts.
+
+
+### Disclaimer:
+**The results have not been checked for errors. Neither methodological nor technical checks or data cleansing have been performed.**
