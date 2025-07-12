@@ -12,6 +12,9 @@ Unlike more widely recognized biases such as: Immortal time bias, Survivorship B
 Only a few scientists seem to be aware of this statistical artefact,
 and widely used methods such as Cox regression or Kaplan-Meier analysis seems not correct for it - which often leads to misleading results.
 
+Charles Sanders Peirce recognized over a century ago that improper randomization and boundary conditions could distort conclusions
+a warning still relevant in today
+
 _________________________________________
 
 ### AA) simulate deaths doses.py
