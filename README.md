@@ -9,8 +9,8 @@ This lead to **illusory differences between the groups**, even when **no real ca
 Unlike more widely recognized biases such as: Immortal time bias, Survivorship Bias, Healthy user effect, Selection bias, Treatment delay bias  
 ...this bias is often **overlooked**, yet it can have a **major impact** on the interpretation of observational data.
 
-Only a few scientists seem to be aware of this statistical artefact,
-and widely used methods such as Cox regression or Kaplan-Meier analysis seems not correct for it - which often leads to misleading results.
+Only few scientists seem to be aware of this statistical artefact,
+and widely used scientific methods such as Cox regression or Kaplan-Meier analysis seems not correct for it - which often leads to misleading results.
 
 Charles Sanders Peirce recognized over a century ago that improper randomization and boundary conditions could distort conclusions
 a warning still relevant in today
