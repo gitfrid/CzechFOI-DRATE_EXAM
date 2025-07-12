@@ -39,7 +39,7 @@ _________________________________________
 
 # Simulation Cases Visualization
 
-Below are the results of the six cases, 
+Below are the results of six differnet cases, 
 shown (CA-AA) Kaplan-Meier Survival Curves: Total vs Vaccinated vs Unvaccinated AGE: [70]
 <br>and normalized (ZI-AA) Total vs Vaccinated vs Unvaccinated Deaths, Population, and Doses by Age: [70] side-by-side.
 
