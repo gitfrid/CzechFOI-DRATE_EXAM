@@ -28,7 +28,7 @@ import os
 # Key Objectives:
 #---------------
 # 1. Simulate a synthetic population (single age group) based on real Czech vaccine registry data.
-# 2. Randomly assign deaths over a fixed follow-up period using empirically estimated death rates.
+# 2. Randomly assign deaths over a fixed follow-up period using empirically estimated constant homogen death rates.
 # 3. Assign vaccination schedules to individuals in two ways:
 #    - Randomized from real-world dose curves (with or without survival constraints).
 #    - Generated dose curves (flat or bell-shaped) over a specified range.
