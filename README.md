@@ -88,7 +88,7 @@ This introduces immortal time bias, giving an unfair advantage to the vaccinated
 
 _________________________________________
 
-** Cox risk hazard vaxed/unvaxed results**
+**Cox risk hazard vaxed/unvaxed results**
 
 | Case | Description                                      | β (coef) | HR = exp(β) | Risk Reduction (%) | 95% CI (HR) | z      | p-value | −log₂(p) | Expected HR |
 | ---- | ------------------------------------------------ | -------- | ----------- | ------------------ | ----------- | ------ | ------- | -------- | ----------- |
