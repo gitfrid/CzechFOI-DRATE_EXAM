@@ -57,14 +57,14 @@ import sys
 # INPUT_CSV = r"C:\CzechFOI-DRATE_EXAM\Terra\SIM_CASES\AF) case7_sim_deaths_sim_beelcurve_random_doses_with_constraint.csv"
 # OUTPUT_TXT = r"C:\CzechFOI-DRATE_EXAM\Plot Results\AE) Cox compare vx uvx\AE-AF) case7_sim_deaths_sim_beelcurve_random_doses_with_constraint.TXT"
 
-INPUT_CSV = r"C:\CzechFOI-DRATE_EXAM\Terra\SIM_CASES\AF) case8_sim_deaths_sim_beelcurve_random_doses_no_constraint.csv"
-OUTPUT_TXT = r"C:\CzechFOI-DRATE_EXAM\Plot Results\AE) Cox compare vx uvx\AE-AF) case8_sim_deaths_sim_beelcurve_random_doses_no_constraint.TXT"
+#INPUT_CSV = r"C:\CzechFOI-DRATE_EXAM\Terra\SIM_CASES\AF) case8_sim_deaths_sim_beelcurve_random_doses_no_constraint.csv"
+#OUTPUT_TXT = r"C:\CzechFOI-DRATE_EXAM\Plot Results\AE) Cox compare vx uvx\AE-AF) case8_sim_deaths_sim_beelcurve_random_doses_no_constraint.TXT"
 
 # INPUT_CSV = r"C:\CzechFOI-DRATE_EXAM\Terra\SIM_CASES\AF) case9_sim_deaths_sim_realcurve_random_doses_with_constraint.csv"
 # OUTPUT_TXT = r"C:\CzechFOI-DRATE_EXAM\Plot Results\AE) Cox compare vx uvx\AE-AF) case9_sim_deaths_sim_realcurve_random_doses_with_constraint.TXT"
 
-#INPUT_CSV = r"C:\CzechFOI-DRATE_EXAM\Terra\SIM_CASES\AF) case10_sim_deaths_sim_realcurve_random_doses_no_constraint.csv"
-#OUTPUT_TXT = r"C:\CzechFOI-DRATE_EXAM\Plot Results\AE) Cox compare vx uvx\AE-AF) case10_sim_deaths_sim_realcurve_random_doses_with_constraint.TXT"
+INPUT_CSV = r"C:\CzechFOI-DRATE_EXAM\Terra\SIM_CASES\AF) case10_sim_deaths_sim_realcurve_random_doses_no_constraint.csv"
+OUTPUT_TXT = r"C:\CzechFOI-DRATE_EXAM\Plot Results\AE) Cox compare vx uvx\AE-AF) case10_sim_deaths_sim_realcurve_random_doses_no_constraint.TXT"
 
 
 REFERENCE_DATE = datetime(2021, 1, 1)

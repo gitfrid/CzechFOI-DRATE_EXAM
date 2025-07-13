@@ -20,8 +20,8 @@ Data snapshot:
 5   2    102  1095      0  1.084805  0.0       0.0
 6   3      0    46      0 -0.921825  0.0       0.0
 7   3     46  1095      0  1.084805  0.0       0.0
-8   4      0   112      0 -0.921825  0.0       0.0
-9   4    112  1095      0  1.084805  0.0       0.0
+8   4      0   154      0 -0.921825  0.0       0.0
+9   4    154  1095      0  1.084805  0.0       0.0
 
 Covariate unique values (scaled):
 vx: min=-0.922, max=1.085
@@ -31,8 +31,8 @@ baseline: min=0.000, max=0.000
 Event counts and total per vx group:
             sum   count
 vx                     
--0.921825  1482  133727
- 1.084805  3721  113636
+-0.921825  2854  133727
+ 1.084805  2349  113636
 
 Missing values per column:
 id          0
@@ -53,17 +53,17 @@ Number of zero-duration intervals: 0
 Event rate by vaccination status:
            event_rate
 vx                   
--0.921825    0.011082
- 1.084805    0.032745
+-0.921825    0.021342
+ 1.084805    0.020671
 
 Trying CoxTimeVaryingFitter with penalizer=0.01 and formula='vx'
 C:\Users\user\AppData\Roaming\Python\Python312\site-packages\lifelines\fitters\cox_time_varying_fitter.py:175: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   self._time_fit_was_called = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S") + " UTC"
-Iteration 1: norm_delta = 3.39e-02, step_size = 0.9500, log_lik = -61316.87626, newton_decrement = 3.27e+00, seconds_since_start = 8.4
-Iteration 2: norm_delta = 2.04e-03, step_size = 0.9500, log_lik = -61313.60030, newton_decrement = 1.16e-02, seconds_since_start = 17.8
-Iteration 3: norm_delta = 1.03e-04, step_size = 0.9500, log_lik = -61313.58875, newton_decrement = 2.96e-05, seconds_since_start = 26.9
-Iteration 4: norm_delta = 5.44e-06, step_size = 1.0000, log_lik = -61313.58872, newton_decrement = 7.41e-08, seconds_since_start = 37.8
-Iteration 5: norm_delta = 8.27e-12, step_size = 1.0000, log_lik = -61313.58872, newton_decrement = 1.71e-19, seconds_since_start = 46.5
+Iteration 1: norm_delta = 5.00e-01, step_size = 0.9500, log_lik = -61316.87626, newton_decrement = 6.95e+02, seconds_since_start = 11.9
+Iteration 2: norm_delta = 3.34e-02, step_size = 0.9500, log_lik = -60683.86965, newton_decrement = 3.96e+00, seconds_since_start = 21.6
+Iteration 3: norm_delta = 1.88e-03, step_size = 0.9500, log_lik = -60679.90597, newton_decrement = 1.23e-02, seconds_since_start = 32.4
+Iteration 4: norm_delta = 9.95e-05, step_size = 1.0000, log_lik = -60679.89365, newton_decrement = 3.13e-05, seconds_since_start = 46.0
+Iteration 5: norm_delta = 1.83e-09, step_size = 1.0000, log_lik = -60679.89362, newton_decrement = 1.06e-14, seconds_since_start = 58.0
 Convergence completed after 5 iterations.
 <lifelines.CoxTimeVaryingFitter: fitted with 247363 periods, 133866 subjects, 5203 events>
          event col = 'event'
@@ -71,19 +71,19 @@ Convergence completed after 5 iterations.
 number of subjects = 133866
  number of periods = 247363
   number of events = 5203
-partial log-likelihood = -61313.59
-  time fit was run = 2025-07-13 18:09:15 UTC
+partial log-likelihood = -60679.89
+  time fit was run = 2025-07-13 22:39:14 UTC
 
 ---
            coef exp(coef)  se(coef)  coef lower 95%  coef upper 95% exp(coef) lower 95% exp(coef) upper 95%
 covariate                                                                                                  
-vx         0.04      1.04      0.01            0.01            0.06                1.01                1.07
+vx        -0.46      0.63      0.01           -0.49           -0.44                0.61                0.64
 
-           cmp to    z    p  -log2(p)
-covariate                            
-vx           0.00 2.56 0.01      6.56
+           cmp to      z      p  -log2(p)
+covariate                                
+vx           0.00 -36.92 <0.005    988.76
 ---
-Partial AIC = 122629.18
-log-likelihood ratio test = 6.58 on 1 df
--log2(p) of ll-ratio test = 6.60
+Partial AIC = 121361.79
+log-likelihood ratio test = 1273.97 on 1 df
+-log2(p) of ll-ratio test = 924.46
 

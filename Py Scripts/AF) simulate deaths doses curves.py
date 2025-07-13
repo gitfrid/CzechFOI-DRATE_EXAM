@@ -138,9 +138,9 @@ def assign_doses_per_age(dose_sets, death_day_arr, rng_seed, constrained, retrie
             trial_pool = rng.choice(eligible_indices, size=min(retries, len(eligible_indices)), replace=False)
             for trial_pos in trial_pool:
                 # constaint death day > first dose day
-                if np.isnan(death_day_arr[trial_pos]) or death_day_arr[trial_pos] > valid_days.min():
+                # if np.isnan(death_day_arr[trial_pos]) or death_day_arr[trial_pos] > valid_days.min():
                 # constaint death day > last dose day
-                #if np.isnan(death_day_arr[trial_pos]) or death_day_arr[trial_pos] > last_dose_day:
+                if np.isnan(death_day_arr[trial_pos]) or death_day_arr[trial_pos] > last_dose_day:
                     selected_pos = trial_pos
                     break
         else:
