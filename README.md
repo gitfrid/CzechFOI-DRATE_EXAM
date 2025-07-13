@@ -37,7 +37,7 @@ _________________________________________
 | 6     | Simulated&nbsp;&nbsp;&nbsp;   | Simulate rectangular curve&nbsp;&nbsp; | ❌ Not applied                                   | ❌ No Bias      |
 
 ****Boundary condition case3: death day > last dose day**
-<br>****Boundary condition case4: death day > first  dose day**
+<br>****Boundary condition case5: death day > first  dose day**
 
 
 # Simulation Cases Visualization
