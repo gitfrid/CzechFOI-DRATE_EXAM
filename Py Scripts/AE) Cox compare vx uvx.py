@@ -37,34 +37,34 @@ import sys
 # AF) 10 cases
 
 #INPUT_CSV = r"C:\CzechFOI-DRATE_EXAM\TERRA\SIM_CASES\AF) case1_real_deaths_real_doses.csv"
-#OUTPUT_HTML = r"C:\CzechFOI-DRATE_EXAM\Plot Results\CA) KM vx uvx\CA-AF) case1_real_deaths_real_doses.html"
+#OUTPUT_TXT = r"C:\CzechFOI-DRATE_EXAM\Plot Results\AE) Cox compare vx uvx\AE-AF) case1_real_deaths_real_doses.TXT"
 
 #INPUT_CSV = r"C:\CzechFOI-DRATE_EXAM\TERRA\SIM_CASES\AF) case2_sim_deaths_real_doses_no_constraint.csv"
-#OUTPUT_HTML = r"C:\CzechFOI-DRATE_EXAM\Plot Results\CA) KM vx uvx\CA-AF) case2_sim_deaths_real_doses_no_constraint.html"
+#OUTPUT_TXT = r"C:\CzechFOI-DRATE_EXAM\Plot Results\AE) Cox compare vx uvx\AE-AF) case2_sim_deaths_real_doses_no_constraint.TXT"
 
 #INPUT_CSV = r"C:\CzechFOI-DRATE_EXAM\TERRA\SIM_CASES\AF) case3_sim_deaths_sim_real_doses_with_constraint.csv"
-#OUTPUT_HTML = r"C:\CzechFOI-DRATE_EXAM\Plot Results\CA) KM vx uvx\CA-AF) case3_sim_deaths_sim_real_doses_with_constraint.html"
+#OUTPUT_TXT = r"C:\CzechFOI-DRATE_EXAM\Plot Results\AE) Cox compare vx uvx\AE-AF) case3_sim_deaths_sim_real_doses_with_constraint.TXT"
 
-#INPUT_CSV = r"C:\CzechFOI-DRATE_EXAM\TERRA\SIM_CASES\AF) case4_sim_deaths_sim_real_doses_no_constraint.csv"
-#OUTPUT_HTML = r"C:\CzechFOI-DRATE_EXAM\Plot Results\CA) KM vx uvx\CA-AF) case4_sim_deaths_sim_real_doses_no_constraint.html"
+# INPUT_CSV = r"C:\CzechFOI-DRATE_EXAM\TERRA\SIM_CASES\AF) case4_sim_deaths_sim_real_doses_no_constraint.csv"
+# OUTPUT_TXT = r"C:\CzechFOI-DRATE_EXAM\Plot Results\AE) Cox compare vx uvx\AE-AF) case4_sim_deaths_sim_real_doses_no_constraint.TXT"
 
 #INPUT_CSV = r"C:\CzechFOI-DRATE_EXAM\TERRA\SIM_CASES\AF) case5_sim_deaths_sim_flat_random_doses_with_constraint.csv"
-#OUTPUT_HTML = r"C:\CzechFOI-DRATE_EXAM\Plot Results\CA) KM vx uvx\CA-AF) case5_sim_deaths_sim_flat_random_doses_with_constraint.html"
+#OUTPUT_TXT = r"C:\CzechFOI-DRATE_EXAM\Plot Results\AE) Cox compare vx uvx\AE-AF) case5_sim_deaths_sim_flat_random_doses_with_constraint.TXT"
 
-#INPUT_CSV = r"C:\CzechFOI-DRATE_EXAM\TERRA\SIM_CASES\AF) case6_sim_deaths_sim_flat_random_doses_no_constraint.csv"
-#OUTPUT_HTML = r"C:\CzechFOI-DRATE_EXAM\Plot Results\CA) KM vx uvx\CA-AF) case6_sim_deaths_sim_flat_random_doses_no_constraint.html"
+# INPUT_CSV = r"C:\CzechFOI-DRATE_EXAM\TERRA\SIM_CASES\AF) case6_sim_deaths_sim_flat_random_doses_no_constraint.csv"
+# OUTPUT_TXT = r"C:\CzechFOI-DRATE_EXAM\Plot Results\AE) Cox compare vx uvx\AE-AF) case6_sim_deaths_sim_flat_random_doses_no_constraint.TXT"
 
-#INPUT_CSV = r"C:\CzechFOI-DRATE_EXAM\Terra\SIM_CASES\AF) case7_sim_deaths_sim_beelcurve_random_doses_with_constraint.csv"
-#OUTPUT_HTML = r"C:\CzechFOI-DRATE_EXAM\Plot Results\CA) KM vx uvx\CA-AF) case7_sim_deaths_sim_beelcurve_random_doses_with_constraint.html"
+# INPUT_CSV = r"C:\CzechFOI-DRATE_EXAM\Terra\SIM_CASES\AF) case7_sim_deaths_sim_beelcurve_random_doses_with_constraint.csv"
+# OUTPUT_TXT = r"C:\CzechFOI-DRATE_EXAM\Plot Results\AE) Cox compare vx uvx\AE-AF) case7_sim_deaths_sim_beelcurve_random_doses_with_constraint.TXT"
 
-#INPUT_CSV = r"C:\CzechFOI-DRATE_EXAM\Terra\SIM_CASES\AF) case8_sim_deaths_sim_beelcurve_random_doses_no_constraint.csv"
-#OUTPUT_HTML = r"C:\CzechFOI-DRATE_EXAM\Plot Results\CA) KM vx uvx\CA-AF) case8_sim_deaths_sim_beelcurve_random_doses_no_constraint.html"
+INPUT_CSV = r"C:\CzechFOI-DRATE_EXAM\Terra\SIM_CASES\AF) case8_sim_deaths_sim_beelcurve_random_doses_no_constraint.csv"
+OUTPUT_TXT = r"C:\CzechFOI-DRATE_EXAM\Plot Results\AE) Cox compare vx uvx\AE-AF) case8_sim_deaths_sim_beelcurve_random_doses_no_constraint.TXT"
 
-#INPUT_CSV = r"C:\CzechFOI-DRATE_EXAM\Terra\SIM_CASES\AF) case9_sim_deaths_sim_realcurve_random_doses_with_constraint.csv"
-#OUTPUT_HTML = r"C:\CzechFOI-DRATE_EXAM\Plot Results\CA) KM vx uvx\CA-AF) case9_sim_deaths_sim_realcurve_random_doses_with_constraint.html"
+# INPUT_CSV = r"C:\CzechFOI-DRATE_EXAM\Terra\SIM_CASES\AF) case9_sim_deaths_sim_realcurve_random_doses_with_constraint.csv"
+# OUTPUT_TXT = r"C:\CzechFOI-DRATE_EXAM\Plot Results\AE) Cox compare vx uvx\AE-AF) case9_sim_deaths_sim_realcurve_random_doses_with_constraint.TXT"
 
-INPUT_CSV = r"C:\CzechFOI-DRATE_EXAM\Terra\SIM_CASES\AF) case10_sim_deaths_sim_realcurve_random_doses_no_constraint.csv"
-OUTPUT_HTML = r"C:\CzechFOI-DRATE_EXAM\Plot Results\CA) KM vx uvx\CA-AF) case10_sim_deaths_sim_realcurve_random_doses_no_constraint.html"
+#INPUT_CSV = r"C:\CzechFOI-DRATE_EXAM\Terra\SIM_CASES\AF) case10_sim_deaths_sim_realcurve_random_doses_no_constraint.csv"
+#OUTPUT_TXT = r"C:\CzechFOI-DRATE_EXAM\Plot Results\AE) Cox compare vx uvx\AE-AF) case10_sim_deaths_sim_realcurve_random_doses_with_constraint.TXT"
 
 
 REFERENCE_DATE = datetime(2021, 1, 1)
