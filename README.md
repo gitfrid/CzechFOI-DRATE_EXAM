@@ -42,7 +42,7 @@ _________________________________________
 
 # Simulation Cases Visualization
 
-**Below are the results from six different simulation cases, for age group 70:**
+**Below are the result plots from six different simulation cases, for age group 70:**
 
 - Kaplan-Meier Survival Curves comparing Total, Vaccinated, and Unvaccinated  
 - Normalized Deaths, Population, and Doses for Total, Vaccinated, and Unvaccinated
@@ -61,14 +61,14 @@ If someone has a recorded 3rd dose, they must have been alive at least until tha
 
 **The Problem:**
 
-This introduces immortal time bias, giving an unfair advantage to the vaccinated group:
+This introduces immortal time bias, giving an unfair advantage to the vaccinated group.
 
 ---
 
 **Effect:**
 
 - Kaplan-Meier and Normalized Time-Series curves show fewer deaths in vaccinated  
-- Cox regression shows a strong protective effect, but this effect is biased and misleading
+- Cox regression shows a significant strong protective effect, but this effect is biased and misleading
 
 
 
