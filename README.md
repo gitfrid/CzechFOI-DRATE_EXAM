@@ -36,7 +36,8 @@ _________________________________________
 | 5     | Simulated&nbsp;&nbsp;&nbsp;   | Simulate rectangular curve&nbsp;&nbsp; | ✅ Applied                                       | ✅ Bias Present  |
 | 6     | Simulated&nbsp;&nbsp;&nbsp;   | Simulate rectangular curve&nbsp;&nbsp; | ❌ Not applied                                   | ❌ No Bias      |
 
-****Boundary condition: death day > last dose day**
+****Boundary condition case3: death day > last dose day
+<br>Boundary condition case4: death day > first  dose day**
 
 
 # Simulation Cases Visualization
@@ -46,6 +47,20 @@ shown (CA-AA) Kaplan-Meier Survival Curves: Total vs Vaccinated vs Unvaccinated 
 <br>and normalized (ZI-AA) Total vs Vaccinated vs Unvaccinated Deaths, Population, and Doses by Age: [70] side-by-side.
 
 [Download interactive htmls](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/tree/main/Plot%20Results)
+
+Case 3: Deaths After Last Dose (Real-Life Constraint)
+<br>In this simulated case, deaths are only allowed to happen after the last vaccine dose date for each person — based on the 7 real dose columns.
+
+This mimics real-life data:
+If for example someone has a recorded 3rd dose, they must have been alive at least until that dose.
+
+The Problem:
+This creates huge time bias, making vaccinated individuals falsely appear they die less often than unvaccinated ones.
+
+Effect:
+    Kaplan-Meier curve shows fewer deaths in vaccinated.
+    Cox regression shows a strong protective effect — but it's biased.
+
 
 | Case&nbsp;&nbsp;&nbsp; | Raw Time Series (CA-AA) | Normalized Time Series (ZI-AA) |
 |-------|-------------------------|-------------------------------|
