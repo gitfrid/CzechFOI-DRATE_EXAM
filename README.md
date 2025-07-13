@@ -36,8 +36,8 @@ _________________________________________
 | 5     | Simulated&nbsp;&nbsp;&nbsp;   | Simulate rectangular curve&nbsp;&nbsp; | ✅ Applied                                       | ✅ Bias Present  |
 | 6     | Simulated&nbsp;&nbsp;&nbsp;   | Simulate rectangular curve&nbsp;&nbsp; | ❌ Not applied                                   | ❌ No Bias      |
 
-****Boundary condition case3: death day > last dose day
-<br>Boundary condition case4: death day > first  dose day**
+****Boundary condition case3: death day > last dose day**
+<br>****Boundary condition case4: death day > first  dose day**
 
 
 # Simulation Cases Visualization
@@ -63,16 +63,12 @@ If someone has a recorded 3rd dose, they must have been alive at least until tha
 
 This introduces immortal time bias, giving an unfair advantage to the vaccinated group:
 
-- Vaccinated individuals must survive until their last dose  
-- Unvaccinated individuals have no such delay constraint
-
 ---
 
 **Effect:**
 
-- Kaplan-Meier curves show fewer deaths in vaccinated  
-- Cox regression shows a strong protective effect  
-  But this effect is biased and misleading
+- Kaplan-Meier and Normalized Time-Series curves show fewer deaths in vaccinated  
+- Cox regression shows a strong protective effect, but this effect is biased and misleading
 
 
 
