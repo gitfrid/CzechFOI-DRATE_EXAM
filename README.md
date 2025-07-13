@@ -42,24 +42,38 @@ _________________________________________
 
 # Simulation Cases Visualization
 
-Below are the results of six differnet cases, 
-shown (CA-AA) Kaplan-Meier Survival Curves: Total vs Vaccinated vs Unvaccinated AGE: [70]
-<br>and normalized (ZI-AA) Total vs Vaccinated vs Unvaccinated Deaths, Population, and Doses by Age: [70] side-by-side.
+**Below are the results from six different simulation cases, for age group 70:**
 
-[Download interactive htmls](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/tree/main/Plot%20Results)
+- Kaplan-Meier Survival Curves comparing Total, Vaccinated, and Unvaccinated  
+- Normalized Deaths, Population, and Doses for Total, Vaccinated, and Unvaccinated
 
-Case 3: Deaths After Last Dose (Real-Life Constraint)
-<br>In this simulated case, deaths are only allowed to happen after the last vaccine dose date for each person — based on the 7 real dose columns.
+---
 
-This mimics real-life data:
-If for example someone has a recorded 3rd dose, they must have been alive at least until that dose.
+**Case 3:**  
+Deaths After Last Dose (Real-Life Constraint)
 
-The Problem:
-This creates huge time bias, making vaccinated individuals falsely appear they die less often than unvaccinated ones.
+In this simulated case, deaths are only allowed to occur after the individual's last recorded vaccine dose, based on the 7 real dose columns.
 
-Effect:
-    Kaplan-Meier curve shows fewer deaths in vaccinated.
-    Cox regression shows a strong protective effect — but it's biased.
+This mimics real-life data behavior:  
+If someone has a recorded 3rd dose, they must have been alive at least until that dose date.
+
+---
+
+**The Problem:**
+
+This introduces immortal time bias, giving an unfair advantage to the vaccinated group:
+
+- Vaccinated individuals must survive until their last dose  
+- Unvaccinated individuals have no such delay constraint
+
+---
+
+**Effect:**
+
+- Kaplan-Meier curves show fewer deaths in vaccinated  
+- Cox regression shows a strong protective effect  
+  But this effect is biased and misleading
+
 
 
 | Case&nbsp;&nbsp;&nbsp; | Raw Time Series (CA-AA) | Normalized Time Series (ZI-AA) |
@@ -71,6 +85,8 @@ Effect:
 | 5&nbsp;&nbsp;&nbsp; | ![Case 5 Raw](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/blob/main/Plot%20Results/CA%29%20KM%20vx%20uvx/CA-AA%29%20case5_sim_deaths_sim_flat_random_doses_with_constraint.png) | ![Case 5 Normalized](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/blob/main/Plot%20Results/ZI%29%20vx%20uvx%20norm/ZI-AA%29%20case5_sim_deaths_sim_flat_random_doses_with_constraint.png) |
 | 6&nbsp;&nbsp;&nbsp; | ![Case 6 Raw](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/blob/main/Plot%20Results/CA%29%20KM%20vx%20uvx/CA-AA%29%20case6_sim_deaths_sim_flat_random_doses_no_constraint.png) | ![Case 6 Normalized](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/blob/main/Plot%20Results/ZI%29%20vx%20uvx%20norm/ZI-AA%29%20case6_sim_deaths_sim_flat_random_doses_no_constraint.png) |
 
+
+<br>[Download interactive htmls](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/tree/main/Plot%20Results)
 <br>Phyton script [CA) KM vx uvx.py](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/blob/main/Py%20Scripts/CA%29%20KM%20vx%20uvx.py) 
 <br>Phyton script [ZI) vx uvx norm.py](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/edit/main/Py%20Scripts/ZI%29%20vx%20uvx%20norm.py) 
 _________________________________________
