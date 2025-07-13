@@ -100,7 +100,11 @@ _________________________________________
 | 6    | Sim deaths, flat random doses (no constraint)    | -0.00    | 1.00        | 1.00        | 0.0%               | 0.97 – 1.02 | -0.25  | 0.80    | 0.32     |
 
 
-<br>Phyton script []() 
+<br>Phyton script [AE) Cox compare vx uvx.py](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/blob/main/Py%20Scripts/AE%29%20Cox%20compare%20vx%20uvx.py)  
+_________________________________________
+### Further simulation of ten differnet cases
+
+<br>Phyton script [AF) simulate deaths doses curves.py](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/blob/main/Py%20Scripts/AF%29%20simulate%20deaths%20doses%20curves.py)  Cox Results: [Cox Results TXT](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/tree/main/Plot%20Results/AE%29%20Cox%20compare%20vx%20uvx/AE-AF%29)
 _________________________________________
 
 ### Software Requirements:
