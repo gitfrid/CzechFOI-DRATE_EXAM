@@ -50,8 +50,8 @@ MAX_AGE = 113                                                   # Maximum age co
 DOSE_DATE_COLS = [f'Datum_{i}' for i in range(1, 8)]            # Column names for dose dates
 NEEDED_COLS = ['Rok_narozeni', 'DatumUmrti'] + DOSE_DATE_COLS   # Required columns from input
 
-DOSE_START_DAY = 460                            # Flat random dose start day (relative to START_DATE)
-DOSE_END_DAY = 530                              # Flat random dose end day
+DOSE_START_DAY = 460                            # Dose start day (relative to START_DATE) for simulated curve window (flat,bell,real)  
+DOSE_END_DAY = 530                              # Dose end day for simulated curve window (flat,bell,real)  
 
 RETRIES = 10000                                 # Max retries for constraint-based dose assignment
 BASE_RNG_SEED = 42                              # Base seed for reproducible randomness
