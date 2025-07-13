@@ -17,6 +17,29 @@ import os
 # Charles Sanders Peirce recognized over a century ago that improper randomization and boundary conditions could distort conclusions
 # a warning still relevant in today’s observational vaccine-effect studies
 
+# Simulation of Boundary Condition Bias in Observational Vaccine Studies
+# -----------------------------------------------------------------------
+
+# This script demonstrates how non-random boundary conditions—arising from the timing of vaccination relative to death events—
+# can introduce a **systematic statistical bias** in observational vaccine effectiveness studies. Even when deaths or vaccinations 
+# are randomly distributed, the imposed survival constraints (e.g., needing to be alive to receive a dose) can make vaccines appear 
+# more protective than they are.
+
+# Key Objectives:
+#---------------
+# 1. Simulate a synthetic population (single age group) based on real Czech vaccine registry data.
+# 2. Randomly assign deaths over a fixed follow-up period using empirically estimated death rates.
+# 3. Assign vaccination schedules to individuals in two ways:
+#    - Randomized from real-world dose curves (with or without survival constraints).
+#    - Generated dose curves (flat or bell-shaped) over a specified range.
+# 4. Compare how the choice of dose assignment and timing affects the apparent association between vaccination and death.
+
+# Case 3 Highlight:
+# -----------------
+# In Case 3  we enforce a strong constraint: death_day > last_dose_day
+# Individuals are only included if their death occurs after their latest vaccine dose (e.g., Dose1 to Dose7)
+# This amplifies the bias dramatically — (simply by how they're selected), creating a huge artificial survival benefit
+
 # === CONFIGURABLE CONSTANTS ===
 INPUT_CSV = r"C:\CzechFOI-DRATE_EXAM\TERRA\Vesely_106_202403141131.csv"  # Input data file
 OUTPUT_FOLDER = r"C:\CzechFOI-DRATE_EXAM\TERRA\SIM_CASES"                # Output folder
