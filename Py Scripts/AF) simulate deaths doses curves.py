@@ -426,7 +426,7 @@ def run_all_cases():
     # Case 8: Sim deaths, sim bell curve for doses - same number as real, NO  constraint
     df_case8 = df_age_sim_deaths.copy()
     dose_curve = generate_bell_dose_curve(df_age, DOSE_DATE_COLS[0], DOSE_START_DAY, DOSE_END_DAY)
-    df_case8 = assign_doses_curve_random_constrained(df_target=df_case8,daily_doses=dose_curve,start_day=DOSE_START_DAY, constrained=True )
+    df_case8 = assign_doses_curve_random_constrained(df_target=df_case8,daily_doses=dose_curve,start_day=DOSE_START_DAY, constrained=False )
     out_case8 = save_case(df_case8, "AF) case8_sim_deaths_sim_beelcurve_random_doses_no_constraint.csv")
     print(f"CASE 8 saved: {out_case8}")
 
@@ -440,8 +440,8 @@ def run_all_cases():
     # Case 10: Sim deaths, sim real curve for doses - same number as real, NO constraint
     df_case10 = df_age_sim_deaths.copy()
     dose_curve = generate_real_dose_curve(df_age, DOSE_DATE_COLS[0], DOSE_START_DAY, DOSE_END_DAY)
-    df_case10 = assign_doses_curve_random_constrained(df_target=df_case10,daily_doses=dose_curve,start_day=DOSE_START_DAY, constrained=True )
-    out_case10 = save_case(df_case10, "AF) case10_sim_deaths_sim_realcurve_random_doses_with_constraint.csv")
+    df_case10 = assign_doses_curve_random_constrained(df_target=df_case10,daily_doses=dose_curve,start_day=DOSE_START_DAY, constrained=False )
+    out_case10 = save_case(df_case10, "AF) case10_sim_deaths_sim_realcurve_random_doses_no_constraint.csv")
     print(f"CASE 10 saved: {out_case10}")
 
     

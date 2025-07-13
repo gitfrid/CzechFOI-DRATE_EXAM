@@ -39,8 +39,40 @@ import plotly.graph_objs as go
 #INPUT_CSV = r"C:\CzechFOI-DRATE_EXAM\TERRA\SIM_CASES\AA) case5_sim_deaths_sim_flat_random_doses_with_constraint.csv"
 #OUTPUT_HTML = r"C:\CzechFOI-DRATE_EXAM\Plot Results\ZI) vx uvx norm\ZI-AA) case5_sim_deaths_sim_flat_random_doses_with_constraint.html"
 
-INPUT_CSV = r"C:\CzechFOI-DRATE_EXAM\TERRA\SIM_CASES\AA) case6_sim_deaths_sim_flat_random_doses_no_constraint.csv"
-OUTPUT_HTML = r"C:\CzechFOI-DRATE_EXAM\Plot Results\ZI) vx uvx norm\ZI-AA) case6_sim_deaths_sim_flat_random_doses_no_constraint.html"
+# INPUT_CSV = r"C:\CzechFOI-DRATE_EXAM\TERRA\SIM_CASES\AA) case6_sim_deaths_sim_flat_random_doses_no_constraint.csv"
+# OUTPUT_HTML = r"C:\CzechFOI-DRATE_EXAM\Plot Results\ZI) vx uvx norm\ZI-AA) case6_sim_deaths_sim_flat_random_doses_no_constraint.html"
+
+# AF) 10 cases 
+
+# INPUT_CSV = r"C:\CzechFOI-DRATE_EXAM\TERRA\SIM_CASES\AF) case1_real_deaths_real_doses.csv"
+# OUTPUT_HTML = r"C:\CzechFOI-DRATE_EXAM\Plot Results\ZI) vx uvx norm\ZI-AF) case1_real_deaths_real_doses.html"
+
+#INPUT_CSV = r"C:\CzechFOI-DRATE_EXAM\TERRA\SIM_CASES\AF) case2_sim_deaths_real_doses_no_constraint.csv"
+#OUTPUT_HTML = r"C:\CzechFOI-DRATE_EXAM\Plot Results\ZI) vx uvx norm\ZI-AF) case2_sim_deaths_real_doses_no_constraint.html"
+
+#INPUT_CSV = r"C:\CzechFOI-DRATE_EXAM\TERRA\SIM_CASES\AF) case3_sim_deaths_sim_real_doses_with_constraint.csv"
+#OUTPUT_HTML = r"C:\CzechFOI-DRATE_EXAM\Plot Results\ZI) vx uvx norm\ZI-AF) case3_sim_deaths_sim_real_doses_with_constraint.html"
+
+#INPUT_CSV = r"C:\CzechFOI-DRATE_EXAM\TERRA\SIM_CASES\AF) case4_sim_deaths_sim_real_doses_no_constraint.csv"
+#OUTPUT_HTML = r"C:\CzechFOI-DRATE_EXAM\Plot Results\ZI) vx uvx norm\ZI-AF) case4_sim_deaths_sim_real_doses_no_constraint.html"
+
+# INPUT_CSV = r"C:\CzechFOI-DRATE_EXAM\Terra\SIM_CASES\AF) case5_sim_deaths_sim_flat_random_doses_with_constraint.csv"
+# OUTPUT_HTML = r"C:\CzechFOI-DRATE_EXAM\Plot Results\ZI) vx uvx norm\ZI-AF) case5_sim_deaths_sim_flat_random_doses_with_constraint.html"
+
+#INPUT_CSV = r"C:\CzechFOI-DRATE_EXAM\TERRA\SIM_CASES\AF) case6_sim_deaths_sim_flat_random_doses_no_constraint.csv"
+#OUTPUT_HTML = r"C:\CzechFOI-DRATE_EXAM\Plot Results\ZI) vx uvx norm\ZI-AF) case6_sim_deaths_sim_flat_random_doses_no_constraint.html"
+
+#INPUT_CSV = r"C:\CzechFOI-DRATE_EXAM\Terra\SIM_CASES\AF) case7_sim_deaths_sim_beelcurve_random_doses_with_constraint.csv"
+#OUTPUT_HTML = r"C:\CzechFOI-DRATE_EXAM\Plot Results\ZI) vx uvx norm\ZI-AF) case7_sim_deaths_sim_beelcurve_random_doses_with_constraint.html"
+
+#INPUT_CSV = r"C:\CzechFOI-DRATE_EXAM\Terra\SIM_CASES\AF) case8_sim_deaths_sim_beelcurve_random_doses_no_constraint.csv"
+#OUTPUT_HTML = r"C:\CzechFOI-DRATE_EXAM\Plot Results\ZI) vx uvx norm\ZI-AF) case8_sim_deaths_sim_beelcurve_random_doses_no_constraint.html"
+
+#INPUT_CSV = r"C:\CzechFOI-DRATE_EXAM\Terra\SIM_CASES\AF) case9_sim_deaths_sim_realcurve_random_doses_with_constraint.csv"
+#OUTPUT_HTML = r"C:\CzechFOI-DRATE_EXAM\Plot Results\ZI) vx uvx norm\ZI-AF) case9_sim_deaths_sim_realcurve_random_doses_with_constraint.html"
+
+INPUT_CSV = r"C:\CzechFOI-DRATE_EXAM\Terra\SIM_CASES\AF) case10_sim_deaths_sim_realcurve_random_doses_no_constraint.csv"
+OUTPUT_HTML = r"C:\CzechFOI-DRATE_EXAM\Plot Results\ZI) vx uvx norm\ZI-AF) case10_sim_deaths_sim_realcurve_random_doses_no_constraint.html"
 
 
 START_DATE = pd.Timestamp('2020-01-01')
