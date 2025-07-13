@@ -85,7 +85,23 @@ This introduces immortal time bias, giving an unfair advantage to the vaccinated
 <br>[Download interactive htmls](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/tree/main/Plot%20Results)
 <br>Phyton script [CA) KM vx uvx.py](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/blob/main/Py%20Scripts/CA%29%20KM%20vx%20uvx.py) 
 <br>Phyton script [ZI) vx uvx norm.py](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/edit/main/Py%20Scripts/ZI%29%20vx%20uvx%20norm.py) 
+
 _________________________________________
+
+** Cox risk hazard vaxed/unvaxed results**
+
+| Case | Description                                      | β (coef) | HR = exp(β) | Risk Reduction (%) | 95% CI (HR) | z      | p-value | −log₂(p) | Expected HR |
+| ---- | ------------------------------------------------ | -------- | ----------- | ------------------ | ----------- | ------ | ------- | -------- | ----------- |
+| 1    | Real deaths, real doses (age 70)                 | -0.29    | 0.75        | 25.0%              | 0.73 – 0.76 | -22.30 | <0.005  | 363.62   |             |
+| 2    | Real deaths, real doses (no constraint)          | 0.00     | 1.00        | 0.0%               | 0.98 – 1.03 | 0.18   | 0.86    | 0.22     | 1.00        |
+| 3    | Simulated deaths, real doses (with constraint)   | -0.47    | 0.62        | 38.0%              | 0.61 – 0.64 | -37.53 | <0.005  | 1021.66  | 1.00        |
+| 4    | Simulated deaths, sim/real doses (no constraint) | -0.00    | 1.00        | 0.0%               | 0.97 – 1.03 | -0.10  | 0.92    | 0.12     | 1.00        |
+| 5    | Sim deaths, flat random doses (with constraint)  | -0.01    | 0.99        | 1.0%               | 0.97 – 1.02 | -0.39  | 0.70    | 0.52     | 1.00        |
+| 6    | Sim deaths, flat random doses (no constraint)    | -0.00    | 1.00        | 0.0%               | 0.97 – 1.02 | -0.25  | 0.80    | 0.32     | 1.00        |
+
+<br>Phyton script []() 
+_________________________________________
+
 ### Software Requirements:
 
 These scripts don't require SQLite queries to aggregate the 11 million individual data rows.
