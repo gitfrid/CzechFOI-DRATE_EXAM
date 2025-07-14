@@ -20,8 +20,10 @@ _________________________________________
 
 ### AA) simulate deaths doses.py
 
-The simulation script demonstrates how applying the "alive at dose time" condition introduces a systematic bias, even when deaths are assigned completely at random, and doses are subsequently assigned only to individuals who meet the boundary condition (i.e., no causal effect of the vaccine is simulated — the null hypothesis).
-<br><br>**Case 3 demonstrates the illusion of effectiveness - the unvaccinated seems to die at a much higer rate - even when there is no difference in the simulated constant death risk between vaccinated and unvaccinated individuals!**
+The simulation script demonstrates how applying the "alive at dose time" condition introduces a systematic bias — even when deaths are assigned completely at random, and doses are subsequently assigned only to individuals who meet the boundary condition (i.e., no causal effect of the vaccine is simulated — the null hypothesis).
+
+
+<br><br>**Case 3 illustrates this clearly: the unvaccinated group appears to die at a much higher rate, despite no difference in the underlying, constant death risk between vaccinated and unvaccinated individuals. This is an example of bias, where the requirement to be alive at the time of dosing creates an illusion of vaccine effectiveness.**
 
 <br>Phyton script [AA) simulate deaths doses.py](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/blob/main/Py%20Scripts/AA%29%20simulate%20deaths%20doses.py) 
 
