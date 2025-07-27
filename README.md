@@ -109,6 +109,11 @@ _________________________________________
 <br>Phyton script [AF) simulate deaths doses curves.py](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/blob/main/Py%20Scripts/AF%29%20simulate%20deaths%20doses%20curves.py)  Cox Results: [Cox Results TXT](https://github.com/gitfrid/CzechFOI-DRATE_EXAM/tree/main/Plot%20Results/AE%29%20Cox%20compare%20vx%20uvx/AE-AF%29)
 _________________________________________
 
+## Solution to correct the Non-Random Boundary Condition Bias
+
+[**CzechFOI-DRATE-NOBIAS project for mor information**](https://github.com/gitfrid/CzechFOI-DRATE-NOBIAS)
+_________________________________________
+
 ### Software Requirements:
 
 These scripts don't require SQLite queries to aggregate the 11 million individual data rows.
